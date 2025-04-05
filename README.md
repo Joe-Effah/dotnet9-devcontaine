@@ -1,4 +1,4 @@
-DevContainer Setup for .NET 9
+# DevContainer Setup for .NET 9
 
 This repository demonstrates how to set up a DevContainer for a .NET 9 development environment. By using this containerized environment, you ensure consistency across different machines and make it easy for anyone to contribute to the project without needing to manually set up dependencies.
 Setup Instructions
