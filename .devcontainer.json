@@ -1,0 +1,14 @@
+{
+  "name": "BookWorm .NET 9 Development Environment", // Use the official .NET SDK base image for dev containers
+  "image": "mcr.microsoft.com/devcontainers/dotnet:9.0-bookworm-slim", // Set the workspace folder
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}", // Install necessary tools using devcontainer features // Install necessary tools using devcontainer features
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}, // Git
+    "ghcr.io/devcontainers/features/azure-cli:1": {}, // Azure CLI
+    "ghcr.io/devcontainers/features/sshd:1": {}, // SSH
+    "ghcr.io/devcontainers-extra/features/tmux-apt-get:1": {}, // Tmux
+    "ghcr.io/devcontainers-extra/features/curl-apt-get:1": {}, // Curl
+    "ghcr.io/devcontainers-extra/features/wget-apt-get:1": {} // Wget
+  }, // Configure the user inside the container
+  "remoteUser": "root"
+}
